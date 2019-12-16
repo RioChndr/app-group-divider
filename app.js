@@ -34,7 +34,15 @@ var app = new Vue({
             console.log(this.tim);
         },
         total_nama : function(){
-            return this.list_nama.split("\n").length;
+            var list_namanya = this.list_nama.split("\n");
+            var hitung = 0;
+            for (let i = 0; i < list_namanya.length; i++) {
+                const e = list_namanya[i];
+                if(e != ""){
+                    hitung++;
+                }
+            }
+            return hitung;
         },
         add_team : function(){
             this.jumlah_kelompok++;
