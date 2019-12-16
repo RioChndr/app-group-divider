@@ -25,7 +25,7 @@ var app = new Vue({
                 if(this.tim[i] == null){
                     this.tim[i] = []
                 }
-                if(arr_nama[i_random] != null){
+                if(arr_nama[i_random] != ""){
                     this.tim[i].push(arr_nama[i_random]);
                 }
                 arr_nama.splice(i_random, 1);
