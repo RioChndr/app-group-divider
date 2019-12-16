@@ -1,0 +1,16 @@
+.card.tim:hover{
+    box-shadow: 0 0 20px 4px #0b01a52f;
+    transition: 500ms;
+}
+.btn_add_item:{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_add_item > .add_team{
+    background: none;
+    border: none;
+    font-size: 50px;
+    width:100%;
+    
+}
