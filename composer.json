@@ -1,0 +1,13 @@
+{
+    "name": "riochandra/bagi_kelompok",
+    "description": "aplikasi untuk bagi kelompok",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Rio Chandra",
+            "email": "riochandra@gmail.com"
+        }
+    ],
+    "require": {}
+}
